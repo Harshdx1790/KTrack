@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resource/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/angular-material.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/fontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/datatables.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/jqueryui.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/color.css"/>
+    </head>
+    <body>
+        <div class="wrapper "  style="">
+            <div class="bgimg1" align="center" style="height: 36%">
+                <div style="width:100%">
+                <img src="resource/images/logobg.png" style="width:30%;margin-top: 10%">
+                </div>
+                <div style="width:100%">
+                <img src="resource/images/logo.png" style="width:30%;">
+                </div>
+                <div style="width: 80%;padding-bottom: 2%">
+                    <h6 class="" style="margin-top: 10%;margin-bottom: 2%; color: #f7f7f7;font-size: 11.5pt;font-family: Arial;">Welcome to mutual fund service on  the go <br> Login to avail full suite of services.</h6>
+                </div>
+                
+                </div>
+            <div class="row" style="margin-top: 3%">
+                    <div class="col s12">
+                        <div class="input-field col s11">
+                            <i class="material-icons prefix " style="font-size: 300%;color: #752864">perm_identity</i>
+                            <input id="UserID" type="text" class="validate">
+                            <label for="UserID">User ID</label>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col s12">
+                        <div class="input-field col s11">
+                            <i class="material-icons prefix foreground-White-Color" style="font-size: 300%;color: #752864">lock</i>
+                             <input id="password" type="password" class="validate">
+                             <label for="password">Password</label>
+                        </div>
+                    </div>
+                </div>
+            <div class="row ">
+                <div class="col s12">
+                    <div class="col s6">
+                        <div class="col s2">
+                        <i class="material-icons prefix " style="color: #752864">perm_identity</i> 
+                        </div>
+                        <div class="col s10">
+                        <span style="font-size: smaller;color:#752864">Forgot Login ID? </span>
+                        </div>
+                    </div>
+                    <div class="col s6">
+                        <div class="col s2">
+                       <i class="fa fa-key" aria-hidden="true" style="color:#752864"></i> 
+                        </div>
+                        <div class="col s10">
+                            <span style="font-size: smaller;color:#752864">Forgot Password?  </span>   
+                        </div>
+                    </div>
+                
+            </div>
+            </div>
+            <div class="row">
+                <div class="col s12" align="center" style="margin-top: 5%">
+                    <div class="col s4">
+                        <a class="btn-floating btn-large waves-effect waves-light" onclick="welcomePage()" style="background-color: #752864;"><i class="fa fa-sign-in" aria-hidden="true"></i></a>  
+                    </div>
+                    <div class="col s4">
+                        <a class="btn-floating btn-large waves-effect waves-light " onclick="welcomePage()" style="background-color: #005888;"><i class="fa fa-address-card-o" aria-hidden="true"></i></a> 
+                    </div>
+                    <div class="col s4">
+                        <a class="btn-floating btn-large waves-effect waves-light " onclick="registration()" style="background-color: #005888;"><i class="material-icons">receipt</i></a> 
+                    </div>
+                </div>
+                <div class="col s12" align="center" style="margin-top: 1%">
+                    <div class="col s4">
+                    <span style="color: #a7a7a7;font-size: small;">Login</span>
+                    </div>
+                    <div class="col s4">
+                        <span style="color: #a7a7a7;font-size: small;">Non-Login Services</span>
+                    </div>
+                    <div class="col s4">
+                        <span style="color: #a7a7a7;font-size: small;">Registration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>var myContextPath = "${pageContext.request.contextPath}"</script>
+        <script type="text/javascript" src="resource/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="resource/JS/jquery-ui.js"></script>
+        <script type="text/javascript" src="resource/JS/materialize.min.js"></script>
+        <script type="text/javascript" src="resource/JS/datatables.min.js"></script>
+        <script type="text/javascript" src="resource/JS/custom.js"></script>
+    </body>
+</html>

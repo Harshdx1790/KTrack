@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resource/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/angular-material.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/fontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/datatables.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/jqueryui.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/color.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/C3/c3.css"/>
+    </head>
+    <body>
+        <div class="wrapper "  style="">
+            <div class="" align="center" style="">
+                <div class="row bgimg1">
+                    <div class="row">
+                        <div class="col s6 right" style="margin-top: 6%;">
+                            <img src="resource/images/logobg.png" style="width:30%">
+                            <img src="resource/images/logo.png" style="width: 57%;">
+                        </div>
+                        <div class="col s6">
+                            <i class="fa fa-power-off left foreground-White-Color" style="padding-top: 7%;font-size: larger" onclick="back('landingPage')" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s2 ">
+                            <i class="fa fa-id-card right foreground-White-Color" style="font-size: 292%;" aria-hidden="true"></i>
+                        </div>
+                        <div class="col s10 ">
+                            <div class="row">
+                                <span class="left foreground-White-Color" style="font-size: x-large"> My Portfolio </span>
+                            </div>
+                            <div class="row">
+                                <span class="left foreground-White-Color" style="font-size: small;color:#a7a7a7"> Portfolio Composition ,  </span>
+                                <br>
+                                <span style="font-size: smaller;color:#a7a7a7" class="left foreground-White-Color">As on 07/05/2017</span>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="fixed-action-btn horizontal click-to-toggle" style="">
+                    <a class="btn-floating btn-large pulse karvySkyBlueBackGround ">
+                        <i class="fa fa-sliders" aria-hidden="true"></i>
+                    </a>
+                    <ul>
+                        <li onclick="barChart()"><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                        <li onclick="donutChart()"><a class="btn-floating yellow darken-1"><i class="fa fa-pie-chart" aria-hidden="true"></i></a></li>
+                        <li onclick="lineChart()"><a class="btn-floating green"><i class="fa fa-line-chart" aria-hidden="true"></i></a></li>
+                        <li onclick="areaChart()"><a class="btn-floating blue"><i class="fa fa-tint" aria-hidden="true"></i></a></li>
+                        <li onclick="tableChart()"><a class="btn-floating karvyDarkBrownBackGround "><i class="fa fa-table" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row container">
+                <div id="chart" style="margin-top: 25%">
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            <footer>
+                <div class="footer-copyright karvySkyBlueBackGround foreground-White-Color center-align">
+                    <div class="container" style="padding-bottom: 2%;padding-top:2%;font-size: smaller; ">
+                        copyright © 2016 Karvy Computershare Pvt Ltd. All Rights Reserved. 
+            
+                    </div>
+                </div>
+            </footer>
+        </div>
+         <script>var myContextPath = "${pageContext.request.contextPath}"</script>
+        <script type="text/javascript" src="resource/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="resource/JS/jquery-ui.js"></script>
+        <script type="text/javascript" src="resource/JS/materialize.min.js"></script>
+        <script type="text/javascript" src="resource/JS/datatables.min.js"></script>
+        <script type="text/javascript" src="resource/JS/custom.js"></script>
+        <script type="text/javascript" src="resource/JS/C3/d3.v3.min.js"></script>
+        <script type="text/javascript" src="resource/JS/C3/c3.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                donutChart();
+            })
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+S.No:,Investor ID,Recommended scheme,Score Card (Lower the better),Intervention Time (In Days)
+1,45689787,Dividend Option Balanced,0.98,17
+2,45689787,Nifty 50,0.83,31
+3,45689787,Nifty Bank,0.82,34
+4,45721086,Regular Plan- Dividend Option Arbitrage & Arbitrage Plus,0.89,33
+5,45721086,Dividend option Large cap,0.87,16
+6,45721086,Dividend Option Balanced,0.79,25
+7,44136388,Growth Funds Mid/Small cap,0.95,19
+8,44136388,Dividend Option Balanced,0.94,38
+9,44136388,Regular Plan- Dividend Option Arbitrage & Arbitrage Plus,0.91,21
+10,37646055,Dividend option Large cap,0.87,17
+11,37646055,Nifty 50,0.86,30
+12,37646055,Growth Funds Mid/Small cap,0.78,32
+13,46158984,Growth Option ELSS,0.92,15
+14,46158984,Dividend Option,0.9,37
+15,46158984,Nifty 50,0.87,21
